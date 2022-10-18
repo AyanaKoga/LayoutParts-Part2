@@ -94,6 +94,7 @@
 
 .hover-shadow:hover {
   box-shadow: 8px 11px 10px 3px #06031ed0;
+  transition: 0.5s;
 }
 
 
@@ -132,11 +133,17 @@
   padding: 20px;
   background-color: #ffffff;
   border: 1px solid #000000;
+  border-left: 0;
+}
+
+.card-box:first-child {
+  border-left: 1px solid #000000;;
 }
 
 .card-box:hover{
   box-shadow: 0px 0px 10px 3px #424242d0;
   z-index: 1;
+  transition: 0.5s;
 }
 
 
